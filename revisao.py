@@ -53,13 +53,36 @@
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-def fatorial():
-    resultado = 1
-    n = 5
-    for i in range(1, n + 1):
-        resultado *= i
+# Crie uma função chamada fatorial que calcule o fatorial de um número inteiro não-negativo. Lembre-se de que o fatorial de um número n é o produto de todos os números inteiros positivos menores ou iguais a n. Por exemplo, o fatorial de 5 (5!) é 120.
 
-r = fatorial()
-print(r)
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Crie uma lista contendo cinco números inteiros. Adicione um número no final da lista e remova o primeiro número. Em seguida, imprima a lista atualizada.
+
+# lista = [1, 2, 3, 4, 5]
+# print(lista)
+# lista.append(int(input("Digite um numero: ")))
+# lista.remove(1)
+# print(lista)
+
+
+# Escreva um programa que encontre o maior e o menor número em uma lista.​
+
+# lista = [1, 2, 3, 4, 5]
+# maior = max(lista)
+# menor = min(lista)
+# print(lista)
+# print(f"o maior numero da lista é {maior} e o menor é {menor}")
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+livro = {
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J. K. Rowling",
+    "ano_publicacao": 1997
+}
+
+print("Título:", livro["titulo"])
+print("Autor:", livro["autor"])
+print("Ano de Publicação:", livro["ano_publicacao"])
 
