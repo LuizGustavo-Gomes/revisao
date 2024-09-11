@@ -51,12 +51,24 @@
 # s = soma()
 # print(f"A soma dos números é: {(s)}")
 
-# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Crie uma função chamada fatorial que calcule o fatorial de um número inteiro não-negativo. Lembre-se de que o fatorial de um número n é o produto de todos os números inteiros positivos menores ou iguais a n. Por exemplo, o fatorial de 5 (5!) é 120.
 
-# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# def fatorial():
+#     x = int(input("Digite um número inteiro não negativo: "))
+#     if x < 0:
+#         print ("Números negativos não tem fatorial.")
+#     elif x == 0:
+#         print (1)
+#     else:
+#         resultado = 1
+#     for i in range(1, x + 1):
+#         resultado = resultado * i
+#     print (resultado)
 
+# fatorial()
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Crie uma lista contendo cinco números inteiros. Adicione um número no final da lista e remova o primeiro número. Em seguida, imprima a lista atualizada.
 
 # lista = [1, 2, 3, 4, 5]
@@ -75,14 +87,32 @@
 # print(f"o maior numero da lista é {maior} e o menor é {menor}")
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Crie um dicionário para armazenar informações sobre um livro, incluindo o título, autor e ano de publicação. Imprima cada uma dessas informações.
 
-livro = {
-    "titulo": "Harry Potter e a Pedra Filosofal",
-    "autor": "J. K. Rowling",
-    "ano_publicacao": 1997
-}
+# livro = {
+#     "titulo": "Harry Potter e a Pedra Filosofal",
+#     "autor": "J. K. Rowling",
+#     "ano_publicacao": 1997
+# }
 
-print("Título:", livro["titulo"])
-print("Autor:", livro["autor"])
-print("Ano de Publicação:", livro["ano_publicacao"])
+# print("Título:", livro["titulo"])
+# print("Autor:", livro["autor"])
+# print("Ano de Publicação:", livro["ano_publicacao"])
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Escreva um programa que conte a frequência de cada caractere em uma string fornecida pelo usuário e armazene essas frequências em um dicionário.
 
+# frase = str(input("Digite uma palavra: "))
+
+# def contar(frase):
+#     frequencia = {}
+#     for i in frase:
+#         if i in frequencia:
+#             frequencia[i] += 1
+#         else:
+#             frequencia[i] = 1
+#     return frequencia
+
+# resultado = contar(frase)
+
+# for i, contador in resultado.items():
+#     print(f"{i} : {contador}")
